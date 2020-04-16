@@ -6,9 +6,14 @@ checkbutton and answer
 answer
 <html app='chrome.exe' title='Test documentos y registros' />
 <webctrl parentid='cuestiones1' tag='TABLE' />
-<webctrl tableRow='3' tableCol='3' />
+<webctrl tableRow='1' tableCol='3' />
 
 
 checkbutton
 <html app='chrome.exe' title='Test documentos y registros' />
-<webctrl tag='CANVAS' tableCol='2' tableRow='3' />
+<webctrl tag='CANVAS' tableCol='2' tableRow='1' />
+
+
+
+
+"<html app='chrome.exe' title='Test documentos y registros' /><webctrl parentid='cuestiones1' tag='TABLE' /><webctrl idx='"+i.tostring+"' tag='TR' />"
